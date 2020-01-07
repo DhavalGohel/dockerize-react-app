@@ -1,0 +1,21 @@
+{
+	"presets": [
+		"@babel/preset-react"
+	],
+	"env": {
+		"development": {
+			"plugins": [
+				"@babel/plugin-proposal-object-rest-spread",
+				"@babel/plugin-proposal-class-properties",
+				"@babel/plugin-transform-classes",
+				"react-hot-loader/babel"
+			]
+		},
+		"production": {
+			"plugins": [
+				"@babel/plugin-proposal-object-rest-spread",
+				"@babel/plugin-proposal-class-properties"
+			]
+		}
+	}
+}

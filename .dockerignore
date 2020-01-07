@@ -1,0 +1,7 @@
+*
+!Dockerfile
+!LICENSE
+!node_modules
+!package.json
+!public
+!README.md
